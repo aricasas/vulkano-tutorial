@@ -1,0 +1,10 @@
+[package]
+name = "vulkano-tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vulkano = "0.33.0"
+
+[profile.dev]
+opt-level = 1 
